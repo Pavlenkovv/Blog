@@ -7,10 +7,11 @@
 {% block body %}
 <div class="container">
     <h1>Додавання нової статті</h1>
-    <form method="post"></form>
+    <form method="post">
         <input type="text" name="title" id="title" class="form-control" placeholder="Напишіть назву"><br>
         <textarea name="intro" id="intro" class="form-control" placeholder="Додайте анонс"></textarea><br>
         <textarea name="text" id="text" class="form-control" placeholder="Також додайте основний текст"></textarea><br>
         <input type="submit" class="btn btn-success" value="Відправити">
+    </form>
 </div>
 {% endblock %}
